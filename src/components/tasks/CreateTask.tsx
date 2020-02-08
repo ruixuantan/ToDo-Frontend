@@ -35,7 +35,12 @@ export default class CreateTask extends Component {
 
   public createTaskRequest = () => {
     axios.post("https://todo-list-backend-rails.herokuapp.com/api/v1/tasks", 
-      this.state,
+      {
+        description: this.state.description,
+        dateline: this.state.dateline,
+        is_completed: this.state.is_completed,
+        tags_attributes: this.state.tags
+      },
       {
         withCredentials: true, 
         validateStatus: () => {return true;}

@@ -18,7 +18,6 @@ export default class CreateTag extends Component {
   }
 
   public createTagRequest = (): void => {
-    console.log(this.state.tags);
     this.state.tags.map(tag =>
       axios.post("https://todo-list-backend-rails.herokuapp.com/api/v1/tags",
         tag,
