@@ -85,6 +85,7 @@ export default class TagInput extends Component<IProps> {
               onChange = {this.handleInputChange}
               onKeyDown = {this.handleInputKeyDown}
               onKeyUp = {this.sendTags}
+              onMouseUp = {this.sendTags}
               />
             </ul>
         </label>
