@@ -1,0 +1,39 @@
+@import "bootstrap";
+
+body {
+  font-family: 'Helvetica';
+  padding: 40px;
+}
+
+.form-group {
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: #303030;
+}
+
+#app-header {
+  color: white;
+  background-color: #303030;
+}
+
+//Manage Tag page
+#tag-index {
+  width: 50%;
+}
+
+#register-link {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #007BFF;
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+#tag-input-container {
+  border: 1px solid #DDD;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#tag-input-ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#tag-item {
+  display: inline-block;
+  color: white;
+  background-color: #303030;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#tag-item:hover {
+  background-color: gray;
+  color: white;
+}
+
+#tag-input {
+  outline: none;
+  border: none;
+  width: auto;
+  font-size: 12px;
+}
